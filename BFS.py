@@ -9,7 +9,7 @@ bfs_graph = {
 }
 
 def bfs_queue(start_node) :
-    bfs_list = []  # visited
+    bfs_list = [] + [start_node]  # visited
     queue = [start_node] # need_visit
 
     while queue :
